@@ -16,7 +16,7 @@ const port = 4500
 //middlewares
 app.use(express.json())
 app.use(cookieParser())
-app.use(cors({origin:'http://localhost:5173', credentials:true}))
+app.use(cors({origin:'https://go-gadget.vercel.app', credentials:true}))
 
 //configurations
 connectDB()
