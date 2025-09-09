@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
 import axios from "axios";
 axios.defaults.withCredentials = true;
-axios.defaults.baseURL = 'http://localhost:4500'
+axios.defaults.baseURL = 'https://gogadget.onrender.com'
 
 export const AppContext = createContext(null);
 
