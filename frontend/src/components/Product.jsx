@@ -74,7 +74,7 @@ const Product = () => {
                     </div>
 
                     <div className="mt-6">
-                        <div className='flex gap-x-3 items-end'><p className="text-gray-500/70 line-through">MRP: ₹{pro.price}</p><span className='text-green-600 text-xl'>{(Math.floor(((pro.price-pro.offerPrice)pro.price)*100))}%</span></div>
+                        <div className='flex gap-x-3 items-end'><p className="text-gray-500/70 line-through">MRP: ₹{pro.price}</p><span className='text-green-600 text-xl'>{(Math.floor(((pro.price-pro.offerPrice)/pro.price)*100))}%</span></div>
                         <p className="text-2xl font-medium">MRP: <span className='text-[red]'>₹{pro.offerPrice}</span></p>
                         <span className="text-gray-500/70">(inclusive of all taxes)</span>
                     </div>
