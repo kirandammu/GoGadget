@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Balthazar&family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
 @import "tailwindcss";
 
 ::-webkit-scrollbar{
     display: none;
+    behavior: smooth;
+}
+*{
+    font-family: "Playfair";
 }
